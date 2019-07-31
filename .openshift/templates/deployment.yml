@@ -100,23 +100,6 @@ objects:
           name: ${APPLICATION_NAME}:latest
       type: ImageChange
     - type: ConfigChange
-#- apiVersion: v1
-#  groupNames: null
-#  kind: RoleBinding
-#  metadata:
-#    creationTimestamp: null
-#    labels:
-#      template: basic-tomcat-template
-#    name: jenkins_edit
-#    namespace: ${NAMESPACE}
-#  roleRef:
-#    name: edit
-#  subjects:
-#  - kind: ServiceAccount
-#    name: ${SA_NAME}
-#    namespace: ${SA_NAMESPACE}
-#  userNames:
-#  - system:serviceaccount:${SA_NAMESPACE}:${SA_NAME}
 parameters:
 - description: The name for the application.
   name: APPLICATION_NAME
@@ -129,9 +112,6 @@ parameters:
   name: SA_NAME
   required: true
   value: jenkins
-#- description: Namespace of service account that can deploy to this project
-#  name: SA_NAMESPACE
-#  required: true
 - description: 'Custom hostname for http service route.  Leave blank for default hostname,
     e.g.: <application-name>-<project>.<default-domain-suffix>'
   name: HOSTNAME_HTTP
