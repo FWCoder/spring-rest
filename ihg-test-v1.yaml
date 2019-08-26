@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  name: UmVmZGF0YS12MQ==
-kind: Secret
-metadata:
-  creationTimestamp: null
-  name: ihg-test-v1

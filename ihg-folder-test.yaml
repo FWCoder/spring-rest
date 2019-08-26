@@ -1,9 +1,0 @@
-apiVersion: v1
-data:
-  test_cases.txt: TmFtZTogdGhpcyBpcyBhIHRlc3QgY2FzZSBmb3IgSUhHLgo=
-  test_cases2.txt: TmFtZTogdGhpcyBpcyBhIHRlc3QgY2FzZSAyIGZvciBJSEcuCg==
-  test_cases3.txt: TmFtZTogdGhpcyBpcyBhIHRlc3QgY2FzZSAzIGZvciBJSEcuCg==
-kind: Secret
-metadata:
-  creationTimestamp: null
-  name: ihg-folder-test
