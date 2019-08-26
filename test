@@ -1,0 +1,4 @@
+NAME                READY     STATUS                       RESTARTS   AGE
+ihg-test-1-build    0/1       Completed                    0          1m
+ihg-test-1-deploy   1/1       Running                      0          1m
+ihg-test-1-twnbb    0/1       CreateContainerConfigError   0          1m

@@ -28,10 +28,10 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"hello"})
 public class Application {
 
-	@Value("${shift.rest.disableValidator}")
-	private boolean disableValidator;
-
     public static void main(String[] args) {
+        for(String arg:args) {
+            System.out.println(arg);
+        }
         SpringApplication.run(Application.class, args);    
     }
 /*
