@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  name: REs=
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: spring-test
