@@ -4,4 +4,4 @@ data:
 kind: Secret
 metadata:
   creationTimestamp: null
-  name: ihg-test-v1
+  name: spring-test-v1
