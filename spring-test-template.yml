@@ -55,6 +55,8 @@ objects:
                 key: name
           - name: JAVA_TOOL_OPTIONS 
             value: "-Dperson.name=${PERSON_NAME}"
+          - name: SETUP_CONDITION
+            value: "true"
           image: ${DOCKER_IMAGE}
           imagePullPolicy: Always
           name: ${APPLICATION_NAME}
